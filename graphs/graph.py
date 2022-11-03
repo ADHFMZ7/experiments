@@ -73,8 +73,3 @@ class node:
   label  :  str
   val    :  int
   index  :  int
-
-
-
-
-
