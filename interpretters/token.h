@@ -22,7 +22,7 @@ class Token
 
     std:String to_string()
     {
-      return "LEXEME BULLSHIT";
+      return "LEXEME";
     }
         
 };
