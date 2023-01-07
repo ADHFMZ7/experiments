@@ -21,5 +21,4 @@ enum TokenType {
 
   EOF
 };
-
 #endif
