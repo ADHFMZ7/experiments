@@ -4,19 +4,23 @@
 #include "tokentype.h"
 #include <string>
 
+
+template <typename T>
 class Token
 {
   TokenType type;
   std::string lexeme;
-  //const 
+  T literal;
   int line; 
 
   Token(TokenType &type, 
         std::string &lexeme, 
+        T &literal,
         int &line)
     { 
       type = type;
       lexeme = lexeme;
+      literal = literal;
       line = line;
     }
 

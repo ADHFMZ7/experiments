@@ -6,7 +6,7 @@
 class Scanner
 {
 
-  Scanner(const std::string &Ssource)
+  Scanner(const std::string &source)
   {
     source = source;
   }
@@ -26,9 +26,28 @@ private:
 
   bool isAtEnd() const { return current >= source.length(); }
 
+  char advance()
+  {
+    return source[current];
+  }
+
+  void addToken(TokenType type)
+  {
+    addToken(type, )
+  }
+
   void scanToken()
   {
-    
+    char
+    switch ()
+    {
+       
+      case '(':
+        
+
+
+    }
+
   }
 
   std::string source;
